@@ -7,7 +7,8 @@
     <body>
         Ez az index.php
         <?php
-            $sorsolt=sorsolas();  
+        include('fgv.php');   
+        $sorsolt=sorsolas();  
             var_dump($sorsolt);
             //LOTTÓHÚZÁS
                    
